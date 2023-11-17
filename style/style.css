@@ -17,6 +17,14 @@
 background-color: goldenrod;
 }
 
+.background_spotlight{
+    background-color: #00008B;
+    padding: 50px;
+}
+
+.conteiner_spotlight.bgc_conteiner_spotlight{
+    background-color: #EE82EE;
+}
 /* ? Generics */
 
 /* conteiner */
@@ -26,24 +34,35 @@ background-color: goldenrod;
     max-width: 1200px;
     margin: 0 auto;
 }
+.conteiner_spotlight{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 /* Header */
 #logo{
     height: 50px;
     flex-basis: 20%;
-    border: 2px dashed;
+    border: 1px dashed;
 }
 
 .navigation{
     height: 50px;
     flex-basis: 60%;
-    border: 2px dashed;
+    border: 1px dashed;
     
 }
 
 .login{
     height: 50px;
     flex-basis: 20%;
-    border: 2px dashed;
-   
+    border: 1px dashed;
+    
+}
+
+.spotlight{
+    height: 400px;
+    flex-basis: 100%;
+    border: 1px dashed;
 }
