@@ -42,7 +42,7 @@ background-color: goldenrod;
     padding-bottom: 50px;
 }
 
-.background_big_box.bigger_box{
+.background_big_box.big_box{
     background-color: #1E90FF;
 }
 
@@ -62,6 +62,13 @@ background-color: goldenrod;
     background-color: #20B2AA;
 }
 
+.background_footer_box.footer_box{
+    background-color: #7FFFD4;
+}
+
+.background_end{
+    background-color: #FFB6C1;
+}
 /* ? Generics */
 
 /* conteiner */
@@ -142,4 +149,24 @@ background-color: goldenrod;
 .smaller_box{
     flex-basis: 25%;
     border: 1px dashed white;
+}
+
+.footer_box{
+    height: 100px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end_logo{
+    height: 50px;
+    width: 100px;
+    border: 1px dashed;
+}
+
+.end_button{
+    height: 50px;
+    width: 100px;
+    border: 1px dashed;
 }
