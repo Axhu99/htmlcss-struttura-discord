@@ -36,17 +36,32 @@ background-color: goldenrod;
     padding: 50px;
 }
 
-.background_big_box{
+.background_black{
+    background-color: #23272A;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.background_big_box.bigger_box{
     background-color: #1E90FF;
 }
 
-.background_small_box{
+.background_small_box.small_box{
     background-color: #FFC0CB;
 }
 
-.background_bigger_box{
+.background_bigger_box.bigger_box{
     background-color: #228B22;
 }
+
+.background_social_box.social_box{
+    background-color: #F08080;
+}
+
+.background_info_box.info_box{
+    background-color: #20B2AA;
+}
+
 /* ? Generics */
 
 /* conteiner */
@@ -107,4 +122,24 @@ background-color: goldenrod;
     height: 800px;
     flex-basis: 100%;
     border: 1px dashed;
+}
+
+/* Footer */
+
+.social_box{
+    height: 400px;
+    flex-basis: 30%;
+    border: 1px dashed;
+}
+
+.info_box{
+    height: 400px;
+    flex-basis: 70%;
+    border: 1px dashed;
+    display: flex;
+}
+
+.smaller_box{
+    flex-basis: 25%;
+    border: 1px dashed white;
 }
