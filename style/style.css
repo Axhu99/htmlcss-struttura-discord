@@ -1,0 +1,49 @@
+/* ? CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ? Utils */
+/* background */
+
+.bgc_header{
+    background-color: #ADD8E6;
+    padding: 15px;
+}
+
+.bgc_conteiner.conteiner_large{
+background-color: goldenrod;
+}
+
+/* ? Generics */
+
+/* conteiner */
+
+.conteiner_large{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+#logo{
+    height: 50px;
+    flex-basis: 20%;
+    border: 2px dashed;
+}
+
+.navigation{
+    height: 50px;
+    flex-basis: 60%;
+    border: 2px dashed;
+    
+}
+
+.login{
+    height: 50px;
+    flex-basis: 20%;
+    border: 2px dashed;
+   
+}
